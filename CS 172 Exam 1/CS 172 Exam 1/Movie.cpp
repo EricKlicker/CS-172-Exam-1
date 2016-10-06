@@ -27,6 +27,7 @@ Movie::Movie(string Title, string Genre, int ShowTime)
     //I understand that I need to have a title, genre, and show time for each movie that I can call
     //this is shown in main() as each movie has different features
 
+    Movie movieListing[11];
     
     
 }

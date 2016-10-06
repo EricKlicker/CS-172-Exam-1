@@ -5,7 +5,8 @@
 //  Created by Eric Klicker on 10/5/16.
 //  Copyright © 2016 Eric Klicker. All rights reserved.
 //
-
+//I affirm that all code given below was written solely by me, <Eric Klicker>, and that any help I received
+//adhered to the rules stated for this exam.
 #include <iostream>
 #include "Movie.hpp"
 #include "Theater.hpp"
