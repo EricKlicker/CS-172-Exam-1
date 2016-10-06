@@ -9,6 +9,7 @@
 #include "Movie.hpp"
 #include <iostream>
 #include <cstdlib>
+#include <cstring>
 
 Movie::Movie()
 {
@@ -23,11 +24,9 @@ Movie::Movie()
 
 Movie::Movie(string Title, string Genre, int ShowTime)
 {
-    
-    
-    int arraySize = 11; // create array for movies. can store multiple movies for theater
-    int films[arraySize];
-    
+    //I understand that I need to have a title, genre, and show time for each movie that I can call
+    //this is shown in main() as each movie has different features
+
     
     
 }
@@ -35,7 +34,12 @@ Movie::Movie(string Title, string Genre, int ShowTime)
 string Movie::getTitle() //returns movie title
 
 {
-    return 0;
+    char movieTitle[11];
+    strncpy(movieTitle, "Bill Duram", 4);
+    
+    
+    
+                            //create and array for movie titles
     
 }
 
