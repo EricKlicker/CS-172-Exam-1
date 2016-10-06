@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6DD6268C1DA610F000B184B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6268B1DA610F000B184B8 /* main.cpp */; };
+		6DD626971DA6F77200B184B8 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626951DA6F77200B184B8 /* Movie.cpp */; };
+		6DD6269A1DA6F79400B184B8 /* Theater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626981DA6F79400B184B8 /* Theater.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		6DD626881DA610F000B184B8 /* CS 172 Exam 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS 172 Exam 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD6268B1DA610F000B184B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6DD626951DA6F77200B184B8 /* Movie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Movie.cpp; sourceTree = "<group>"; };
+		6DD626961DA6F77200B184B8 /* Movie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Movie.hpp; sourceTree = "<group>"; };
+		6DD626981DA6F79400B184B8 /* Theater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Theater.cpp; sourceTree = "<group>"; };
+		6DD626991DA6F79400B184B8 /* Theater.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Theater.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				6DD6268B1DA610F000B184B8 /* main.cpp */,
+				6DD626961DA6F77200B184B8 /* Movie.hpp */,
+				6DD626951DA6F77200B184B8 /* Movie.cpp */,
+				6DD626991DA6F79400B184B8 /* Theater.hpp */,
+				6DD626981DA6F79400B184B8 /* Theater.cpp */,
 			);
 			path = "CS 172 Exam 1";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD626971DA6F77200B184B8 /* Movie.cpp in Sources */,
+				6DD6269A1DA6F79400B184B8 /* Theater.cpp in Sources */,
 				6DD6268C1DA610F000B184B8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
